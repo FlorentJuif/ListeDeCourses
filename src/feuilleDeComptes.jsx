@@ -3,12 +3,12 @@ import Portefeuille from "./portefeuille";
 import Articles from "./Articles";
 
 const FeuilleDeComptes = () => {
-  const total = "tu as moins de thunes";
+  const total = "Ce qu'il te reste";
   return (
     <div className="feuilleDeComptes">
       <Portefeuille />
       <Articles />
-      Total:{total}
+      <p>total: {total}</p>
     </div>
   );
 };
