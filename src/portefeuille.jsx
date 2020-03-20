@@ -1,12 +1,9 @@
-import React,{useState} from 'react'
+import React from "react";
 
-const Portefeuille=()=>{
-    const [pfvalue,setPfValue]=useState(34.45)
-    return(
-        <div>
-            Vous Avez {pfvalue}€ dans votre portefeuille
-        </div>
-    )
-}
+const Portefeuille = () => {
+  const argent = 43.22;
 
-export default Portefeuille
+  return <div>portefeuille :{argent}€</div>;
+};
+
+export default Portefeuille;

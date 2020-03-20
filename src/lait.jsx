@@ -1,12 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const Lait =()=>{
-    const prixLait=1.50
-   return(
-       <div>
-           Lait prix : {prixLait}€
-       </div>
-   )
-}
+const Lait = () => {
+  const lait = 1.5;
+  return <div>Lait :{lait}€</div>;
+};
 
-export default Lait
+export default Lait;

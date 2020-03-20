@@ -1,14 +1,16 @@
-import React from 'react'
-import Portefeuille from './portefeuille'
-import Lait from './lait'
+import React from "react";
+import Portefeuille from "./portefeuille";
+import Articles from "./Articles";
 
+const FeuilleDeComptes = () => {
+  const total = "tu as moins de thunes";
+  return (
+    <div className="feuilleDeComptes">
+      <Portefeuille />
+      <Articles />
+      Total:{total}
+    </div>
+  );
+};
 
-const FeuilleDeComptes=()=>{
-    return(
-        <div className="feuilleDeComptes">
-            {Portefeuille-Lait}€
-        </div>
-    )
-}
-
-export default FeuilleDeComptes
+export default FeuilleDeComptes;
